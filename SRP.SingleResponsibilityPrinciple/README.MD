@@ -2,7 +2,7 @@
 
 Esse é o princípio da responsabilidade única. Ele nos diz basicamente que:
 
-"Cada módulo/classe do software deve possuir apenas uma razão para mudar"
+> Cada módulo/classe do software deve possuir apenas uma razão para mudar
 
 Imagine uma ferramenta Suíça. Ela possui multiplas funções. 
 
