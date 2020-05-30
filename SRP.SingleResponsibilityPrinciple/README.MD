@@ -17,6 +17,6 @@ No código de exemplo, precisamos inserir um usuário no banco de dados. Nosso u
   * Inserir o registro no banco;
   * Enviar um e-mail de boas-vindas;
   
-No exemplo [ruim](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/SRP.SingleResponsibilityPrinciple/Bad), realizamos todos esses passos na classe `UserService`.
+No exemplo [ruim](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/SRP.SingleResponsibilityPrinciple/Bad), realizamos todos esses passos na classe `UserService.cs`.
 
 Já no exemplo [bom](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/SRP.SingleResponsibilityPrinciple/Good), separamos nossas classes fazendo com que cada parte seja responsável por realizar alguma tarefa específica.
