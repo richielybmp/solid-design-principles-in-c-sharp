@@ -35,5 +35,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Bad\ReportGenerationHelper.cs" />
+    <Compile Include="Bad\ReportGenerationHelperBasic.cs" />
+    <Compile Include="CommonTypes\ReportInfo.cs" />
+    <Compile Include="Good\ExcelReportGenerationHelper.cs" />
+    <Compile Include="Good\PdfReportGenerationHelper.cs" />
+    <Compile Include="Good\ReportGenerationHelper.cs" />
+    <Compile Include="Good\WordReportGenerationHelper.cs" />
+    <Compile Include="Good\XmlReportGenerationHelper.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
