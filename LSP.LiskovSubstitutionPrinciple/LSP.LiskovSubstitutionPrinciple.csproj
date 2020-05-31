@@ -35,5 +35,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bad\AccountAccess.cs" />
+    <Compile Include="Common\AccountAccessMannager.cs" />
+    <Compile Include="Bad\FreeAccount.cs" />
+    <Compile Include="Bad\GoldAccount.cs" />
+    <Compile Include="Bad\PlatinumAccount.cs" />
+    <Compile Include="Bad\TestAccountAccess.cs" />
+    <Compile Include="Good\AccountTypes\PaidAccountAccess.cs" />
+    <Compile Include="Good\AccountTypes\TopPaidAccountAccess.cs" />
+    <Compile Include="Good\FreeAccount.cs" />
+    <Compile Include="Good\GoldAccount.cs" />
+    <Compile Include="Good\Interfaces\IArticle.cs" />
+    <Compile Include="Good\Interfaces\ICourse.cs" />
+    <Compile Include="Good\Interfaces\IMentor.cs" />
+    <Compile Include="Good\PlatinumAccount.cs" />
+    <Compile Include="Good\TestAccountAccess.cs" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
