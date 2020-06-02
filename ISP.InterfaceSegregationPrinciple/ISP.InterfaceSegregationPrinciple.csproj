@@ -35,5 +35,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Bad\Interface\ILead.cs" />
+    <Compile Include="Bad\Leader.cs" />
+    <Compile Include="Bad\Manager.cs" />
+    <Compile Include="Good\Interface\ILead.cs" />
+    <Compile Include="Good\Interface\IProgrammer.cs" />
+    <Compile Include="Good\Leader.cs" />
+    <Compile Include="Good\Manager.cs" />
+    <Compile Include="Good\Programmer.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
