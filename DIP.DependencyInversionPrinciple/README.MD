@@ -12,9 +12,7 @@ Imagine que as pessoas todas com telefone celular viram pra você e dizem que ir
 
 No código de exemplo, queremos utilizar de um mecanismo de envio de mensagens via E-mail, Sms ou Whatsapp.
   
-No exemplo [ruim](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/DIP.DependencyInversionPrinciple/Bad),  .
-
-Aqui o serviço de notificação depende totalmente de saber quais são os meios de envio para tratar cada um de forma independente. Isso é horrível para manutenibilidade e evolução do código.
+No exemplo [ruim](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/DIP.DependencyInversionPrinciple/Bad), os meios de notificação possuem implementações dentro do serviço de notificação que depende totalmente de saber quais são os meios de envio para tratar cada um de forma independente. Isso é horrível para manutenibilidade e evolução do código pois o módulo de notiifação e as formas de envio estão fortemente amarradas.
 
 Já no exemplo [bom](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/DIP.DependencyInversionPrinciple/Good), resolvemos esse problema quando criamos um tipo `IMessageType.cs` que serve de base para todas as formas de envio da notificação, garantinfo que nossa aplicação se divida em interfaces que caracterizarão os meios existentes e também os novos, abrindo o código para extensões.
 Seguindo, o mecanismo de notificação decide qual será sua estratégia de o envio. O serviço de notificação por sua vez, é criado já sabendo qual o meio de envio que deverá ser utilizado e consegue enviar a notificação sem precisar ter diferentes implementações para o envio.
