@@ -35,5 +35,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bad\Email.cs" />
+    <Compile Include="CommonTypes\EnumMessageType.cs" />
+    <Compile Include="Bad\Notification.cs" />
+    <Compile Include="Bad\Notify.cs" />
+    <Compile Include="Bad\Sms.cs" />
+    <Compile Include="Bad\Whatsapp.cs" />
+    <Compile Include="Good\Email.cs" />
+    <Compile Include="Good\IMessageType.cs" />
+    <Compile Include="Good\Notification.cs" />
+    <Compile Include="Good\Notify.cs" />
+    <Compile Include="Good\Sms.cs" />
+    <Compile Include="Good\Whatsapp.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
