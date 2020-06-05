@@ -2,22 +2,30 @@
 {
     public class Notification
     {
-        public void EmailNotify(string message)
+        private Email _email;
+        private Whatsapp _whatsapp;
+        private Sms _sms;
+
+        public Notification()
         {
             Email email = new Email();
-            email.Send(message);
+            Whatsapp whatsapp = new Whatsapp();
+            Sms sms = new Sms();
+
+        }
+        public void EmailNotify(string message)
+        {
+            _email.Send(message);
         }
 
         public void WhatsappNotify(string message)
         {
-            Whatsapp whatsapp = new Whatsapp();
-            whatsapp.Send(message);
+            _whatsapp.Send(message);
         }
 
         public void SmsNotify(string message)
         {
-            Sms sms = new Sms();
-            sms.Send(message);
+            _sms.Send(message);
         }
     }
 }
