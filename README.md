@@ -1,6 +1,6 @@
-# Princípios do Design SOLID na prática com C#
+# SOLID Principles with C#
 
-Exemplos reais de como implementar os princípios SOLID com C# na prática.
+Hands-on SOLID Principles using C# programming language with "real world" exmaples.
 
 ## SOLID
 
@@ -11,7 +11,7 @@ Exemplos reais de como implementar os princípios SOLID com C# na prática.
 - DIP - [Dependency Inversion Principle](https://github.com/richielybmp/solid-design-principles-in-c-sharp/tree/master/DIP.DependencyInversionPrinciple)
 
 
-## Distribuição e Licensa
-Este repositório tem como intuito apenas aprendizagem, expondo conceitos que devem ser utilizados em todos projetos que você for fazer.
+## License and Distributing
+The purpose of this repo is only for knowledge, showing concepts that must be used by everyone in their coding projecs.
 
 Enjoy =)
